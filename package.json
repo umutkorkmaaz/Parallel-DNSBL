@@ -1,0 +1,28 @@
+{
+  "name": "parallel_dnscheck",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "NodeJS application that queries DNSBL in parallel. Built to minimize the response time of multiple DNSBL queries.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umutkorkmaaz/parallel-dnsbl.git"
+  },
+  "files": [
+    "index.js",
+    "child.js"
+  ],
+  "keywords": [
+    "dnsbl",
+    "query",
+    "ip",
+    "ipv4",
+    "dns"
+  ],
+  "author": "Umut Korkmaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umutkorkmaaz/parallel-dnsbl/issues"
+  },
+  "homepage": "https://github.com/umutkorkmaaz/parallel-dnsbl#readme"
+}
