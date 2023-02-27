@@ -1,12 +1,15 @@
 {
   "name": "parallel_dnscheck",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "description": "NodeJS application that queries DNSBL in parallel. Built to minimize the response time of multiple DNSBL queries.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/umutkorkmaaz/parallel-dnsbl.git"
+  },
+  "scripts": {
+    "scan": "node run index.js"
   },
   "files": [
     "index.js",
